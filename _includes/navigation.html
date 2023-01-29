@@ -1,7 +1,9 @@
-<nav>
-    {% for item in site.data.navigation %}
-      <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+<nav class="tw-flex tw-flex-row">
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+      <div class="tw-p-3 tw-mx-2 tw-text-center">
         {{ item.name }}
-      </a>
-    {% endfor %}
-  </nav>
+      </div>
+    </a>
+  {% endfor %}
+</nav>

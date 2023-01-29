@@ -1,4 +1,5 @@
 {
     "frontMatter.framework.id": "jekyll",
-    "frontMatter.content.publicFolder": "assets"
+    "frontMatter.content.publicFolder": "assets",
+    "frontMatter.content.autoUpdateDate": true
 }

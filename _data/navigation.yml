@@ -1,4 +1,10 @@
 - name: Home
   link: /
+- name: Services
+  link: /services
+- name: Learn
+  link: /learn
+- name: Library
+  link: /library
 - name: About
   link: /about

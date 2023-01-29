@@ -3,14 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/base.css" />
     <link rel="stylesheet" href="/assets/css/main.css" />
     {% feed_meta %} {% seo %}
   </head>
   <body>
-    <div class="tw-h-[50px] tw-w-full">{% include navigation.html %}</div>
+    <div
+      class="tw-h-[50px] tw-w-full tw-bg-white tw-shadow-md tw-shadow-[#2260a8]"
+    >
+      {% include navigation.html %}
+    </div>
     <div class="tw-flex tw-flex-row">
       <div>{% include sidebar.html %}</div>
-      <div>{{ content }}</div>
+      <div
+        class="tw-m-8 tw-leading-[1.75rem] tw-bg-white tw-shadow-md tw-shadow-[#2260a8] tw-p-4"
+      >
+        {{ content }}
+      </div>
     </div>
   </body>
 </html>

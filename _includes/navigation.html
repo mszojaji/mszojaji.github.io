@@ -1,9 +1,14 @@
-<nav class="tw-flex tw-flex-row">
-  {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
-      <div class="tw-p-3 tw-mx-2 tw-text-center">
-        {{ item.name }}
-      </div>
-    </a>
-  {% endfor %}
-</nav>
+<div class="tw-flex tw-flex-row">
+  <div class="tw-w-2/4 tw-h-[50px] tw-pl-16 tw-pt-3 tw-font-bold tw-text-lg">
+    The Code’s Corner
+  </div>
+  <nav class="tw-flex tw-flex-row">
+    {% for item in site.data.navigation %}
+      <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+        <div class="tw-p-3 tw-mx-2 tw-text-center">
+          {{ item.name }}
+        </div>
+      </a>
+    {% endfor %}
+  </nav>
+</div>

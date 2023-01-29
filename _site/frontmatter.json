@@ -51,5 +51,7 @@
       "title": "_posts",
       "path": "[[workspace]]/_posts"
     }
-  ]
+  ],
+  "frontMatter.content.publicFolder": "assets",
+  "frontMatter.framework.id": "jekyll"
 }
